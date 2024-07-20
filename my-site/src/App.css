@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+body{
+  background-color: black;
+}
+
+#menu-button{
+  display: none;
+}
+
+.material-symbols-outlined{
+  color: white;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.sidebar{
+  position: fixed;
+  
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+.navbar a{
+  color: white;
+  text-decoration: none;
+  height: 100%;
+  align-self: center;
+  border-radius: 2em;
+  padding: 10px;
+}
+
+#top{
+  position: absolute;
+  top: 0;
+}
+
+#top-button{
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  background-color: black;
+  border-radius: 99em;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.navbar a:hover{
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 600px){
+  #menu-button{
+    display: inline;
+  }
+  .navbar a{
+    display: none;
+  }
+}
