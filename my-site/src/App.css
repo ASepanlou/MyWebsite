@@ -44,6 +44,12 @@ button{
   color: white;
 }
 
+#close-button{
+  position: absolute;
+  top: 15px;
+  right: 3px;
+}
+
 #navbar{
   display: flex;
   flex-direction: row;
@@ -100,7 +106,7 @@ button{
   }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 601px){
   #sidebar{
     display: none !important;
   }
